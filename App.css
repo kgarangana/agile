@@ -1,0 +1,71 @@
+/* Login Page Styles */
+body {
+  background-color: #f4f7fc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-page {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-header {
+  background: #4e73df;
+  border-radius: 15px 15px 0 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.card-body {
+  background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+}
+
+input,
+select {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2e59d9;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+input:focus, select:focus {
+  box-shadow: none;
+  border-color: #4e73df;
+}
+
+input.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.text-primary {
+  color: #4e73df !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
